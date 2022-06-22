@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import reacts from 'react';
+
+import Characters from './components/Characters';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Characters
+                name = {'bart'}
+                surname = {'simpson'}
+                age = {10}
+                info = {'fgsdfsdafasdfa'}
+                photo = {'http://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png'}
+                alt = {'bart'}
+            />
+            <Characters
+                name = {'bart'}
+                surname = {'simpson'}
+                age = {10}
+                info = {'fgsdfsdafasdfa'}
+                photo = {'http://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png'}
+                alt = {'bart'}
+            />
+            <Characters
+                name = {'bart'}
+                surname = {'simpson'}
+                age = {10}
+                info = {'fgsdfsdafasdfa'}
+                photo = {'http://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png'}
+                alt = {'bart'}
+            />
+            <Characters
+                name = {'bart'}
+                surname = {'simpson'}
+                age = {10}
+                info = {'fgsdfsdafasdfa'}
+                photo = {'http://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png'}
+                alt = {'bart'}
+            />
+            <Characters
+                name = {'bart'}
+                surname = {'simpson'}
+                age = {10}
+                info = {'fgsdfsdafasdfa'}
+                photo = {'http://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png'}
+                alt = {'bart'}
+            />
+
+        </div>
+    );
 }
 
 export default App;
