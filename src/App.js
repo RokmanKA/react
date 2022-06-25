@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
+import Characters from './components/Characters'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <Characters
+        id={1}
+        name={"Rick Sancehez"}
+        status={"Alive"}
+        Species={"Human"}
+        gender={"Male"}
+        image={"https://i.pinimg.com/originals/58/f9/b3/58f9b3494168cc9f502967823c8e1626.jpg"}
+        alt={"Rick"}
+        />
+      </div>
   );
 }
 
